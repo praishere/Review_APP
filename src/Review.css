@@ -1,0 +1,30 @@
+/* Review.css */
+.review {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .rating {
+    font-weight: bold;
+  }
+  
+  .sentence {
+    padding: 2px 4px;
+    margin: 0 2px;
+  }
+  
+  .sentence.Positive {
+    background-color: #d4edda;
+  }
+  
+  .sentence.Negative {
+    background-color: #f8d7da;
+  }
